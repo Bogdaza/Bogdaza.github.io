@@ -1,0 +1,44 @@
+h1, h2{
+  color: lime;
+  text-align: center;
+}
+body {
+  color: gold;
+}
+p{
+  font-size: 120%;
+}
+.img > img {
+  max-width: 100%;
+  border: 2px solid gold;
+}
+.flex-container {
+  display: flex;
+  gap: 2%;
+}
+ul{
+  font-size: 200%;
+}
+a:link, a:visited{
+  color: white;
+}
+.container{
+  display: flex;
+  gap: 4%;
+  max-width: 100%;
+  align-items: center;
+}
+.cnt{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#conclusion{
+  font-size: 30px;
+  color: yellow;
+}
+h3 {
+  text-align: center;
+  font-size: 170%;
+  color: lime;
+}
