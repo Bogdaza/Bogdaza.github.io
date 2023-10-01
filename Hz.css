@@ -58,4 +58,9 @@ h3 {
 .c > ul{
   color: crimson;
 }
-
+.c {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  gap: 5%;
+}
