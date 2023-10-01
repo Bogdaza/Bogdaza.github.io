@@ -42,3 +42,16 @@ h3 {
   font-size: 170%;
   color: lime;
 }
+.cont {
+  display: flex;
+  align-items: center;
+  gap: 3%
+}
+.cont > #text{
+  font-size: 120%;
+  color: cyan;
+  }
+#1{
+  width: 40%;
+  height: 40%;
+}
