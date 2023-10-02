@@ -1,9 +1,9 @@
 h1, h2{
-  color: lime;
+  color: #a9aa81;
   text-align: center;
 }
 body {
-  color: gold;
+  color: #feffc2;
 }
 p{
   font-size: 120%;
@@ -25,7 +25,6 @@ a:link, a:visited{
 .container{
   display: flex;
   gap: 4%;
-  max-width: 100%;
   align-items: center;
 }
 .cnt{
@@ -35,7 +34,7 @@ a:link, a:visited{
 }
 #conclusion{
   font-size: 30px;
-  color: yellow;
+  color: #a9aa81;
 }
 h3 {
   text-align: center;
@@ -49,16 +48,29 @@ h3 {
 }
 .cont > #text{
   font-size: 120%;
-  color: cyan;
+  color: #feffc2;
   }
-#cringe {
-  max-width: 40%;
-  max-height: 40%;
+.c {
+  display: flex;
+  max-width: 100%;
+  justify-content: flex-start;
+  gap: 5%;
 }
 .c > ul{
-  color: crimson;
+  font-size: 170%;
+  color: #a9aa81;
 }
-.c {
+.contain {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  gap: 3%;
+}
+h4 {
+  font-size: 200%;
+  color: firebrick;
+}
+.containerok {
   display: flex;
   max-width: 100%;
   justify-content: center;
