@@ -1,5 +1,5 @@
 h1, h2{
-  color: #a9aa81;
+  color: #feffc2;
   text-align: center;
 }
 body {
@@ -10,7 +10,7 @@ p{
 }
 .img > img {
   max-width: 100%;
-  border: 2px solid gold;
+  border: 2px solid white;
 }
 .flex-container {
   display: flex;
@@ -20,7 +20,7 @@ ul{
   font-size: 200%;
 }
 a:link, a:visited{
-  color: white;
+  color: deepskyblue;
 }
 .container{
   display: flex;
@@ -34,7 +34,7 @@ a:link, a:visited{
 }
 #conclusion{
   font-size: 30px;
-  color: #a9aa81;
+  color: #feffc2;
 }
 h3 {
   text-align: center;
@@ -58,7 +58,7 @@ h3 {
 }
 .c > ul{
   font-size: 170%;
-  color: #a9aa81;
+  color: #feffc2;
 }
 .contain {
   display: flex;
@@ -68,12 +68,12 @@ h3 {
 }
 h4 {
   font-size: 200%;
-  color: firebrick;
+  color: cyan;
 }
 .containerok {
   display: flex;
   max-width: 100%;
   justify-content: center;
   gap: 5%;
-  color: #555541;
+  color: #feffc2;
 }
