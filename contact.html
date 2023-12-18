@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+  <title lang="EN">Create Your Website</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="top_menu">
+  <div id="logo">Bond.</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <img src="/Images/menu.jpg" alt="menu-icon" class="menu-img" id="menu-icon" onclick="open_close_menu()">
+</div>
+<div id="line">I am gey</div>
+<div class="main_menu">
+  <a href="Html.html">HTML</a>
+  <a href="Css.html">Css</a>
+  <a href="js.html">JS</a>
+</div>
+Здесь я оставлю контакты, как связаться с создателем данного сайта.
+<br>Это почта - <a href="mailto:bogdaza@gmail.com">bogdaza@gmail.com</a>. Это username в телеграмме - @bogdaza1
+<br>Я всегда буду готов  обсудить ваши идею и предложения по поводу сайта.
+<script>
+  const menu_icon = document.querySelector(".menu-img");
+  const main_menu = document.querySelector(".main_menu");
+
+  function open_close_menu () {
+    main_menu.classList.toggle("style");
+  }
+</script>
+</body>
+</html>

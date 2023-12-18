@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+  <title lang="EN">Create Your Website</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="top_menu">
+  <div id="logo">Bond.</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <img src="/Images/menu.jpg" alt="menu-icon" class="menu-img" id="menu-icon" onclick="open_close_menu()">
+</div>
+<div id="line">I am gey</div>
+<div class="main_menu">
+  <a href="Html.html">HTML</a>
+  <a href="Css.html">Css</a>
+  <a href="js.html">JS</a>
+</div>
+
+<h1>Теперь настало время JavaScript!</h1>
+Чтобы соединить js и html файл есть такие похожие два пути как с css, либо через написание в теге "body" тег "script" и дальше в нем js код, либо присоединить его, написав в теге "script"- "src="имя файла с расширением"".
+<img><br>Дальше же на ша задача обратиться к определенному элементу используя разные методы, такие как: "geElementById" или "querySelector".
+<br>После этого мы уже можем прописывать разные функции этому элементу, что допустим при нажатии происходит то-то то-то. <img>
+<script>
+  const menu_icon = document.querySelector(".menu-img");
+  const main_menu = document.querySelector(".main_menu");
+
+  function open_close_menu () {
+    main_menu.classList.toggle("style");
+  }
+</script>
+</body>
+</html>

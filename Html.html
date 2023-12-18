@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+  <title lang="EN">Create Your Website</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="top_menu">
+  <div id="logo">Bond.</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <img src="/Images/menu.jpg" alt="menu-icon" class="menu-img" id="menu-icon" onclick="open_close_menu()">
+</div>
+<div id="line">I am gey</div>
+<div class="main_menu">
+  <a href="Html.html">HTML</a>
+  <a href="Css.html">Css</a>
+  <a href="js.html">JS</a>
+</div>
+<h1>Первые шаги.</h1>
+Мы должны обозначить браузеру тип документа, который он должен будет обработать, если этого не сделать то существует вероятность, что браузер будет отображать сайт не так как вы хотели. А также написать тег "lang" для обозначания языка страницы. <img src="/Images/"><br>
+<strong><em>Весь код (кроме DOCTYPE) должен быть помещен в html блок!</em></strong>
+<ul>
+  <li>Так выглядит эта строка для HTML 5 <img src="/Images/dct.jpg" alt="DOCTYPE"></li>
+  <li>Так нужно писать если у вам версия HTML 4.01<img src="/Images/dct4.jpg" alt="DOCTYPE for HTML 4"></li>
+</ul>
+Следующий важный шаг - это тег "head" в котором содержатся несколько других тегов например: "title" и "link". <br>
+Они необходимы, чтобы у вашего сайта отображался определенный заголовок во вкладке и связать таблицу стилей со своим кодом HTML соответственно.
+<img src=""><img src="">
+<h2>Основная часть.</h2>
+<p>Теперь тег body, в котором и будет находиться вся структура сайта, от заголовков до ссылок.</p>
+В этой части у вас полная свобода действий, вы вольны писать любой текст, вставлять таблицы, строки ввода и тп. Все эти теги легко найти пользуясь различными другими сайтами, самое главное, что нужно понимать - это то, что большая часть элементов тут будут содержаться в тегах "div" с добвленными в них "id" и "class", которые позволят обращаться к определенному элементу вашего сайта.
+Вот несколько примеров, которые вы скорее всего будуту использовать в свойем сайте: "img", "a", "ul" и тд.<img><img><img>
+<p>На этом создание структуры сайта закончено, теперь надо придать ему стиля используя каскадные таблицы стиля или просто "CSS".</p>
+
+<script>
+  const menu_icon = document.querySelector(".menu-img");
+  const main_menu = document.querySelector(".main_menu");
+
+  function open_close_menu () {
+    main_menu.classList.toggle("style");
+  }
+</script>
+</body>
+</html>

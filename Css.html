@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+  <title lang="EN">Create Your Website</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="top_menu">
+  <div id="logo">Bond.</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <img src="/Images/menu.jpg" alt="menu-icon" class="menu-img" id="menu-icon" onclick="open_close_menu()">
+</div>
+<div id="line">I am gey</div>
+<div class="main_menu">
+  <a href="Html.html">HTML</a>
+  <a href="Css.html">Css</a>
+  <a href="js.html">JS</a>
+</div>
+<h1>Каскадные таблицы стилей.</h1>
+Во-первых, есть два способа как связать код css и html, либо создать отдельный файл с расширением css и в тег "title" в html добавить тег "link", где написать название файла css, либо же в самом файле html в теге "head" написать тег "style" и дальше уже в нем писать css код.
+<br>Сам язык css состоит из того, что мы обращаемся к определенному элементу в html документе и задаем ему какие-либо параметры, используя разные свойства. Смысл в том,чтобы на этом этапе ваш сайт уже приобрел определенную стилистику и некоторые выделяющиеся элементы. <img> 
+
+<script>
+  const menu_icon = document.querySelector(".menu-img");
+  const main_menu = document.querySelector(".main_menu");
+
+  function open_close_menu () {
+    main_menu.classList.toggle("style");
+  }
+</script>
+</body>
+</html>

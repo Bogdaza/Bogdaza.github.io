@@ -1,0 +1,67 @@
+.top_menu {
+  background-color: #262626;
+  align-items: center;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+#menu-icon {
+  height: 35px;
+  width: 35px;
+  background-color: #262626;
+  cursor: pointer;
+}
+.top_menu a {
+  transition: 0.4s;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.top_menu a:hover {
+  transition: 0.4s;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 0.5;
+}
+#logo {
+  font-weight: 800;
+  color: black;
+  font-size: large;
+}
+.main_menu {
+  display: none;
+}
+.style {
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+  flex-direction: column;
+  background-color: #262626;
+  justify-content: space-around;
+  height: 150px;
+  transition: 0.4s;
+}
+.main_menu a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  animation-delay: 1s;
+  transition: 0.5s;
+}
+.main_menu a:hover {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.4s;
+  opacity: 0.5;
+  font-size: 40px;
+}
+#line {
+  color: white;
+  font-size: 1px;
+}
+h1 h2{
+  text-align: center;
+}

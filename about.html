@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+  <title lang="EN">Create Your Website</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<div class="top_menu">
+  <div id="logo">Bond.</div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <img src="/Images/menu.jpg" alt="menu-icon" class="menu-img" id="menu-icon" onclick="open_close_menu()">
+</div>
+<div id="line">I am gey</div>
+<div class="main_menu">
+  <a href="Html.html">HTML</a>
+  <a href="Css.html">Css</a>
+  <a href="js.html">JS</a>
+</div>
+<h1>Для чего же был создан этот сайт?</h1>
+Этот сайт был создан для того, чтобы помочь <em>начинающим</em> создать их <b>собственный сайт</b>, ведь тут будут <em>практические советы</em> и понятные объяснения как создавать его.
+<p>Так же советую скачать <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>, программу в которой очень удобно работать, ведь включив <b>локальный онлайн сервер</b> можно сразу наблюдать <em>все изменения</em>, происходящие на странице при написании кода.</p>
+<p>Так же хочется выразить <strong>огромную благодарность</strong> <a href="https://www.instagram.com/zummyop/?hl=en" target="_blank">Евгению Шеру</a>, который периолически отвечал на мои вопросы и объяснял некоторые моменты.</p>
+<script>
+  const menu_icon = document.querySelector(".menu-img");
+  const main_menu = document.querySelector(".main_menu");
+
+  function open_close_menu () {
+    main_menu.classList.toggle("style");
+  }
+</script>
+</body>
+</html>
